@@ -1,0 +1,27 @@
+
+/* color palette
+    Dark blue: #222a33
+    Lighter Dark blue: #313c4e
+    Burnt Orange (accent colour): #a85c24
+    White: #ffffff
+*/
+
+.header{
+    background-color: #222a33;
+    width: parent;
+    height: 85px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.header--menu{
+    color: white;
+
+}
+
+.header--listitems{
+    list-style-type: none;
+
+}
+
