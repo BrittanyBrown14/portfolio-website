@@ -1,13 +1,16 @@
-import logo from '../images/background.jpg';
+import me from '../images/me-grad-edit.jpg';
 import '../stylesheets/Home.css';
 
-function App() {
+function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="Home">
+      <div className="Text"> 
+        <h3>Hi, I'm</h3>
+        <h1>Brittany Brown</h1>
+        <h2>And I am an <span className='DevText'>Aspiring Frontend Developer</span></h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I am creating this website to showcase my portfilo.<br/>
+          This website is also my first project using React.<br/>
         </p>
         <a
           className="App-link"
@@ -17,9 +20,15 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </div> 
+      
+      <div className="Home-header">
+        <img src={me} className="Home-logo" alt="logo" />
+      </div>
     </div>
+
+
   );
 }
 
-export default App;
+export default Home;
