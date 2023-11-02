@@ -2,7 +2,7 @@ import '../stylesheets/Header.css';
 
 function Header() {
     return (
-      <div className="header">
+      <div className="header--head">
         <header className="header--menu">
             <ul className='header--listitems'>
                 <li>Home</li>
