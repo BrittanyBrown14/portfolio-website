@@ -1,0 +1,50 @@
+
+/* color palette
+    Dark blue: #222a33
+    Lighter Dark blue: #313c4e
+    Burnt Orange (accent colour): #a85c24
+    White: #ffffff
+*/
+
+.header--head{
+    background-color: #222a33;
+    width: parent;
+    height: 85px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display','Merriweather','Inter','Open Sans' sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header--menu{
+    color: white;
+}
+
+.header--listitems{
+    list-style-type: none;
+    display: flex;
+}
+
+.header--listitems > li{
+    padding-right: 50px;
+}
+
+.header--button{
+    color: #222a33;
+    background-color: white;
+    font-family: 'Playfair Display','Merriweather','Inter','Open Sans' sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    border: 2px;
+    border-radius: 25px;
+}
+
+/* TODO Put the buttton to the right while keeping everything else in the center*/
+/* TODO Make it so that the text turns the accent colour on hover*/
+/* TODO Make it so the screen scrolls to the appropriate page when clicked*/
+
