@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -36,7 +36,7 @@
     color: #222a33;
     background-color: white;
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     width: 150px;
     height: 40px;

@@ -2,13 +2,6 @@ import '../stylesheets/Header.css';
 // import scripts from '../scripts/HeaderScript.js'
 
  function Header() {
-    function onHover(e) {
-      e.target.style.color = '#a85c24';
-    }  
-    function offHover(e) {
-      e.target.style.color = 'White';
-    } 
-
     return (
       <div className="header--head">
         <header className="header--menu">
@@ -25,6 +18,12 @@ import '../stylesheets/Header.css';
     );
   }
 
+    function onHover(e) {
+      e.target.style.color = '#a85c24';
+    }  
+    function offHover(e) {
+      e.target.style.color = 'White';
+    } 
   export default Header;
 
   //TODO Figure out a way to use fuctions in an external script file

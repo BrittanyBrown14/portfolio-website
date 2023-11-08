@@ -24,10 +24,6 @@ function Home() {
           here.
         </a><br/>
         </p>
-
-
-        {/* <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Smashicons - Flaticon</a> 
-        <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>*/}
       
         <div className='icons'>
           <img src={linkedin} className="icon--linkedin" alt="logo" />
@@ -40,9 +36,6 @@ function Home() {
       <div className="home--header">
         <img src={me} className="home--logo" alt="logo" />
       </div>
-
-
-
     </div>
 
 
