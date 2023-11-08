@@ -29,9 +29,9 @@ function Home() {
         {/* <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Smashicons - Flaticon</a> 
         <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>*/}
       
-        <div className='Logos'>
-          <img src={linkedin} className="Logo--Linkedin" alt="logo" />
-          <img src={github} className="Logo--Github" alt="logo" />
+        <div className='icons'>
+          <img src={linkedin} className="icon--linkedin" alt="logo" />
+          <img src={github} className="icon--github" alt="logo" />
         </div>
 
         <button className='home--button'>Download CV</button>
@@ -54,3 +54,4 @@ export default Home;
 // TODO find a better background pic. maybe a lighter image colour or a lighter shade of blue
 // TODO add a download CV button
 // TODO add the icon ref links to the footer
+// TODO consider changing the colour scheme

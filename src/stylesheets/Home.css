@@ -84,10 +84,10 @@
   color:white;
 }
 
-.Logo--Linkedin, .Logo--Github{
+.icon--linkedin, .icon--github{
   width: 50px;
   height: 50px;
-  margin-right: 40px;
+  margin-right: 20px;
   margin-top: 30px;
 }
 
