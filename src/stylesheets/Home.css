@@ -2,20 +2,20 @@
     Dark blue: #222a33
     Lighter Dark blue: #313c4e
     Burnt Orange (accent colour): #a85c24
+    ??? (brighter accent colour):
     White: #ffffff
 */
 
-.Home {
+.home {
   text-align: center;
   display: flex;  
   background-image: url("../images/background.jpg");
   align-items: center;
   justify-content: center;
-  font-family: 'Playfair Display','Merriweather','Inter','Open Sans' sans-serif;
-  color: green;
+  font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
 }
 
-.Home-logo {
+.home--logo {
   border-radius: 5px;
   width: 500px;
   height: 600px;
@@ -23,7 +23,7 @@
   pointer-events: none;
 }
 
-.Home-header {
+.home--header {
 
   min-height: 100vh;
   display: flex;
@@ -34,37 +34,61 @@
   color: white;
 }
 
-.Text{
+.home--button{
+  color: white;
+  background-color: #a85c24;
+  font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
+  font-size: 16px;
+  font-weight: 700;
+  width: 150px;
+  height: 40px;
+  border: 2px;
+  border-radius: 25px;
+  margin-top: 40px;
+}
+
+.text{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: white;
 }
 
-.Text > h1{
+.text > h1{
   margin: 0px;  
   font-size: 60px;
 }
 
-.Text > h2{
+.text > h2{
   margin-top: 0px;
   font-size: 35px;
 }
 
-.Text > h3{
+.text > h3{
   margin-bottom: 0px;
   color: #a85c24;
   font-size: 30px;
 }
 
-.Text > p{
+.text > p{
   margin-top: 0px;
   font-size: 20px;
   text-align:start;
 }
 
-.DevText{
+.devText{
   color: #a85c24;
+}
+
+.textLink{
+  color:white;
+}
+
+.Logo--Linkedin, .Logo--Github{
+  width: 50px;
+  height: 50px;
+  margin-right: 40px;
+  margin-top: 30px;
 }
 
 
