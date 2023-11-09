@@ -9,6 +9,7 @@ function Header() {
                 <li>About Me</li>
                 <li>Github Portfolio</li>
                 <li>Skills</li>
+                <li>Attributions</li>
             </ul>
         </header>
         <button className='header--button'>Contact Me</button>
