@@ -17,7 +17,7 @@ function Home() {
           I based the design off of a template I found in Figma and used <br/>
           that as inspiration. You can find that template         <a
           className="textLink"
-          href="https://reactjs.org"
+          href="https://www.figma.com/community/file/1294537255181873571"
           target="_blank"
           rel="noopener noreferrer"
         >
