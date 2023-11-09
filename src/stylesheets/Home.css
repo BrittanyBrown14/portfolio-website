@@ -24,10 +24,8 @@
 }
 
 .home--header {
-
-  min-height: 100vh;
+  min-height: 84vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -84,10 +82,10 @@
   color:white;
 }
 
-.Logo--Linkedin, .Logo--Github{
+.icon--linkedin, .icon--github{
   width: 50px;
   height: 50px;
-  margin-right: 40px;
+  margin-right: 20px;
   margin-top: 30px;
 }
 
