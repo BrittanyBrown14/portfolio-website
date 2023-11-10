@@ -15,15 +15,14 @@
   font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
 }
 
-.home--logo {
-  border-radius: 5px;
+.logo {
+  border-radius: 15px ;
   width: 500px;
   height: 600px;
-  padding-left: 100px;
-  pointer-events: none;
+  margin-left: 100px;
 }
 
-.home--header {
+.home--body {
   min-height: 84vh;
   display: flex;
   align-items: center;

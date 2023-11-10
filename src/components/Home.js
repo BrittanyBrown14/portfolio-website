@@ -14,7 +14,7 @@ function Home() {
         <h2>And I am an <span className='devText'>Aspiring Frontend Developer</span></h2>
         <p>
           This is a website I have made to showcase my portfilo.<br/>
-          This website is my first project using React so far.<br/>
+          This website (Still in development) is my first project using React so far.<br/>
           I based the design off of a template I found in Figma and used <br/>
           that as inspiration. You can find that template         <a
           className="textLink"
@@ -34,8 +34,8 @@ function Home() {
         <button className='home--button'>Download CV</button>
       </div> 
 
-      <div className="home--header">
-        <img src={me} className="home--logo" alt="logo" />
+      <div className="home--body">
+        <img src={me} className="logo" alt="logo" />
       </div>
     </div>
 
@@ -46,5 +46,7 @@ function Home() {
 export default Home;
 
 // TODO find a better background pic. maybe a lighter image colour or a lighter shade of blue
+// TODO find a better logo pic. Something to do with coding but a free stock photo
 // TODO add the icon ref links to the attributions tab
 // TODO consider changing the colour scheme
+// TODO get the download CV button to work. 

@@ -1,4 +1,25 @@
-.bobby{
-    background-color: darkblue;
-    color: gold;
+.about--body{
+    text-align: center;
+    display: flex;  
+    background-image: url("../images/background.jpg");
+    font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
+    min-height: 84vh;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
+
+.about--logo {
+    border-radius: 100px;
+    width: 475px;
+    height: 491px;
+    margin-left: 100px;
+    pointer-events: none;
+  }
+
+.about--text{
+    font-size: 18px;
+    text-align:justify;
+}
+
