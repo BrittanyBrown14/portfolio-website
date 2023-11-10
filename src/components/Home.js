@@ -3,6 +3,7 @@ import linkedin from '../images/linkedin.png';
 import github from '../images/github.png';
 import '../stylesheets/Home.css';
 
+
 function Home() {
   return (
     <div className="home">
@@ -45,6 +46,5 @@ function Home() {
 export default Home;
 
 // TODO find a better background pic. maybe a lighter image colour or a lighter shade of blue
-// TODO add a download CV button
-// TODO add the icon ref links to the footer
+// TODO add the icon ref links to the attributions tab
 // TODO consider changing the colour scheme
