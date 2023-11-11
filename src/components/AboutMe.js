@@ -24,7 +24,8 @@ function AboutMe(){
                     My own hobbies:<br/>
                     I sew. I have made dresses, trousers, costumes, hoodies and sweatshirts.<br/>
                     I love Japan and the Japanese culture. I've been learning the language for 3 years or so <br/>
-                    and am hoping to take the JLPT N5 exam once registration opens up for the new year.
+                    and am hoping to take the JLPT N5 exam once registration opens up for the new year.<br/>
+                    I also enjoy reading and gaming.
                 </p>
 
                 <p className='about--text'>
