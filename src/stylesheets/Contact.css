@@ -1,0 +1,101 @@
+.contact--body {
+    text-align: center;
+    background-image: url("../images/background.jpg");
+    justify-content: center;
+    font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
+    min-height: 84vh;
+    color:white;
+  }
+
+.contact--body > h1 {
+  display: flex;
+  margin-top:0px;
+  padding-top: 25px;
+  justify-content: center;
+  }
+
+.contact--home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  }
+  
+.contact--info{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.info--item{
+  display: inline-flex;
+  align-self: baseline;
+
+}
+.contact--logo{
+  width: 40px;
+  margin: 10px;
+
+}
+
+.contact--form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form--item{
+  width: 657px;
+  height: 40px;
+  border-radius: 50px;
+  margin:10px;
+  padding-left: 10px;
+  color: white;
+  background-color: rgb(94, 131, 201);
+  opacity:0.7;
+}
+.form--item::placeholder{
+  color: white;
+  padding: 10px;
+}
+
+.form--short-item{
+  width: 325px;
+  height: 40px;
+  border-radius: 50px;
+  margin:10px;  
+  padding-left: 10px;
+  color: white;
+  background-color: rgb(94, 131, 201);
+  opacity:0.7;
+}
+.form--short-item::placeholder{
+  color: white;
+  padding: 10px;
+}
+
+.form--message{
+  width: 657px;
+  height: 40px;
+  border-radius: 50px;
+  margin:10px;
+  padding-left: 10px;
+  color: white;
+  background-color: rgb(94, 131, 201);
+  opacity:0.7;
+}
+.form--message::placeholder{
+  color: white;
+  padding: 10px;
+}
+
+.form--submit{
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  margin:10px;
+  padding-left: 10px;
+  color: white;
+  background-color: rgb(94, 131, 201);
+  opacity:0.7;
+}

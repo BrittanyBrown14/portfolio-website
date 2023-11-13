@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Header from './components/Header';
 import Footer  from './components/Footer';
 import AboutMe  from './components/AboutMe';
+import Contact  from './components/Contact';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -21,6 +22,7 @@ root.render(
           <Route exact path='/' element={<Home />} />
           <Route path='/Home' element={<Home />} />
           <Route path='/AboutMe' element={<AboutMe />} />
+          <Route path='/Contact' element={<Contact />} />
       </Routes>
       <Footer />
    </Router>
