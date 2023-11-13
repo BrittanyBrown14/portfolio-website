@@ -24,12 +24,15 @@ function Header() {
             </li>
             <li>Github Portfolio</li>
             <li>Skills</li>
-            <li>Attributions</li>
         </ul>
-        <Outlet/>
+        
       </header>
 
-      <button className='header--button'>Contact Me</button>
+      <button className='header--button'>
+        <Link to="/Contact" className='menu--button-link'>Contact Me</Link>
+      </button>
+      
+      <Outlet/>
     </div>
   );
 }
@@ -37,3 +40,4 @@ function Header() {
 export default Header;
 
   //TODO Figure out a way to use fuctions in an external script file
+  //TODO Change the colour the button turns into when clicked. 

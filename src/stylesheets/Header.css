@@ -48,6 +48,9 @@
     text-decoration: none;
     color: white;
 }
+.menu--button-link{
+    text-decoration: none;
+}
 
 /* TODO Make it so the screen scrolls to the appropriate page when clicked*/
 /* TODO Consider making font bigger*/
