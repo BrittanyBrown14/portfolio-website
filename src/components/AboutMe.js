@@ -8,12 +8,12 @@ function AboutMe(){
                 <h3>Junior Frontend Developer</h3>
                 <p className='about--text'>
                     I graduated The University of Greenwich in 2023, with a BSc in Computing, First Class Honours.<br/> 
-                    I am currently doing the IBM Front-End Developer Professional Certificate <br/>and have already completed one of the courses.<br/>
-                    and want to dive into Frontend Development.<br/>
+                    I am currently doing the IBM Front-End Developer Professional Certificate, <br/>and have already completed one of the courses 
+                    and want to dive into Front-End Development.<br/>
                 </p>
 
                 <p className='about--text'>
-                    This is why I wanna go into FE Dev:<br/>
+                    <h3>This is why I want to go into Front-End Development:</h3>
                     I enjoy creating things (I sew) so creating websites is taps into that.<br/>
                     I like wokring with my hands and I also enjoy working with tech, its fun. <br/>
                     I like seeing a project come together as I create it. It is quite satisfying.<br/>
@@ -21,7 +21,7 @@ function AboutMe(){
                 </p> 
 
                 <p className='about--text'>
-                    My own hobbies:<br/>
+                    <h3>My own hobbies:</h3>
                     I sew. I have made dresses, trousers, costumes, hoodies and sweatshirts.<br/>
                     I love Japan and the Japanese culture. I've been learning the language for 3 years or so <br/>
                     and am hoping to take the JLPT N5 exam once registration opens up for the new year.<br/>
@@ -29,9 +29,9 @@ function AboutMe(){
                 </p>
 
                 <p className='about--text'>
-                    What I am looking for now:<br/>
-                    I am currently looking for a role as a junior fe dev and I am based in London. <br/>
-                    If want to get in contact with me, drop me an email, call or contect with me on LinkedIn. <br/>
+                    <h3>What I am looking for now:</h3>
+                    I am currently looking for a role as a Junior Front-End or Web Developer and I am based in London. <br/>
+                    If want to get in contact with me, drop me an email, call or contact with me on LinkedIn. <br/>
                     <br/>
                 </p>              
             </article>
