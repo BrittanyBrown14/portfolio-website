@@ -55,7 +55,7 @@ export default Home;
 
 // TODO find a better background pic. maybe a lighter image colour or a lighter shade of blue
 // TODO find a better logo pic. Something to do with coding but a free stock photo.
-// TODO add the icon ref links to the attributions tab
 // TODO consider changing the colour scheme
 // TODO get the download CV button to work. 
 // TODO make the website layout more fluid.
+// TODO Download button needs to do something on hover (change colour, font gets bolder)
