@@ -1,6 +1,7 @@
 import me from '../images/me-grad-edit.jpg';
 import linkedin from '../images/linkedin.png';
 import github from '../images/github.png';
+import resume from '../Brittanys_Resume.pdf'
 import '../stylesheets/Home.css';
 
 
@@ -27,11 +28,18 @@ function Home() {
         </p>
       
         <div className='icons'>
-          <img src={linkedin} className="icon--linkedin" alt="logo" />
-          <img src={github} className="icon--github" alt="logo" />
+          <a href="https://www.linkedin.com/in/brittany-k-brown/">
+              <img src={linkedin} className="icon--linkedin" alt="logo" />        
+          </a>
+          <a href="https://github.com/BrittanyBrown14/">
+              <img src={github} className="icon--github" alt="logo" />            
+          </a>
         </div>
 
-        <button className='home--button'>Download CV</button>
+        <a href={resume} download="Brittany's CV">
+          <button className='home--button'>Download CV</button>
+        </a>
+        
       </div> 
 
       <div className="home--body">
@@ -46,7 +54,7 @@ function Home() {
 export default Home;
 
 // TODO find a better background pic. maybe a lighter image colour or a lighter shade of blue
-// TODO find a better logo pic. Something to do with coding but a free stock photo
+// TODO find a better logo pic. Something to do with coding but a free stock photo.
 // TODO add the icon ref links to the attributions tab
 // TODO consider changing the colour scheme
 // TODO get the download CV button to work. 
