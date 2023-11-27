@@ -1,16 +1,19 @@
 import '../stylesheets/Contact.css'
+import React from 'react'
 import phone from '../images/phone.png'
 import email from '../images/email.png'
 import map from '../images/location.png'
+import sendEmail from '../scripts/SendEmail'
+
+var FName = document.getElementById("name");
+
 function Contact(){
     return(
         <div className='contact--body'> 
             <h1>Contact page</h1>
-
             <div className='contact--home'> 
                 <article>
-                    {/* Add the Contact details similar to how it is in the design. 
-                        Get more icons from Flaticon - make sure to include these in the atribbutions page*/}
+                    {/* Add the Contact details similar to how it is in the design.*/}
                     <ul className="contact--info">
                         <li className='info--item'>
                             <img src={phone} className="contact--logo" alt="logo" />
@@ -28,26 +31,30 @@ function Contact(){
                     </ul>      
                 </article>
                 
-                <form className="contact--form">
+                <form id='contactForm' className="contact--form">
                     {/* add a form for contact details simlar to the design
                     
-                    Make it so that I gert an email sent of those emails
+                        Make it so that I get an email sent of those emails
                         Do this using JS 
                         Maybe create a seperate Script file and make it into a class?????*/}
-                    <input type="text" placeholder='Full Name' className="form--item"/>
-                    <input type="email" placeholder='Email' className="form--item"/>
-                    <input type="tel" placeholder='Phone Number' className="form--short-item"/>
-                    <input type="text" placeholder='Subject' className="form--short-item"/>
-                    <textarea placeholder="Write your message" className="form--message" rows="4" cols="50"> </textarea>
-                    <button type="submit" value="Submit" className="form--submit">Submit</button>
+                    <input type="text" placeholder='Full Name' className="form--item" name='from_name' required/>
+                    <input type="email" placeholder='Email' className="form--item" name='from_email' required/>
+                    <div>
+                        <input type="tel" placeholder='Phone Number' className="form--short-item" name='from_number'/>
+                        <input type="text" placeholder='Subject' className="form--short-item" style={{width:"297px"}} name='subject' required/>
+                    </div>
+                    <textarea placeholder="Write your message here" className="form--message" rows="4" cols="50" name='message' required> </textarea>
+                    <button type="submit" value="Send" className="form--submit" onClick={(sendEmail)}>Submit</button>
                 </form>
             </div>
         </div>
-
     )
+
 }
 
 export default Contact;
 
 //TODO Add functionality to the submit button
 //TODO Improve the layout of the COntact page based on the template. 
+//TODO Look into validations for the contact form
+//TODO Fix the message box font and placeholder not showing until text is typed

@@ -50,3 +50,4 @@ export default Home;
 // TODO add the icon ref links to the attributions tab
 // TODO consider changing the colour scheme
 // TODO get the download CV button to work. 
+// TODO make the website layout more fluid.
