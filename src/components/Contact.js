@@ -5,8 +5,6 @@ import email from '../images/email.png'
 import map from '../images/location.png'
 import sendEmail from '../scripts/SendEmail'
 
-var FName = document.getElementById("name");
-
 function Contact(){
     return(
         <div className='contact--body'> 
