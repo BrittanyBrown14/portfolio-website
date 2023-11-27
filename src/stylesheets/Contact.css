@@ -4,6 +4,7 @@
     justify-content: center;
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
     min-height: 84vh;
+    max-height: 100vh;
     color:white;
   }
 
@@ -18,8 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 100px;
-  }
+}
   
 .contact--info{
   list-style-type: none;
@@ -50,13 +50,13 @@
   border-radius: 50px;
   margin:10px;
   padding-left: 10px;
+  text-indent: 20px;
   color: white;
   background-color: rgb(94, 131, 201);
   opacity:0.7;
 }
 .form--item::placeholder{
   color: white;
-  padding: 10px;
 }
 
 .form--short-item{
@@ -65,28 +65,32 @@
   border-radius: 50px;
   margin:10px;  
   padding-left: 10px;
+  text-indent: 20px;
   color: white;
   background-color: rgb(94, 131, 201);
   opacity:0.7;
 }
 .form--short-item::placeholder{
   color: white;
-  padding: 10px;
+}
+
+.form--short-item-box{
+  display: flex;
 }
 
 .form--message{
   width: 657px;
-  height: 40px;
-  border-radius: 50px;
+  height: 100px;
+  border-radius: 25px;
   margin:10px;
   padding-left: 10px;
+  padding-top: 10px;
   color: white;
   background-color: rgb(94, 131, 201);
   opacity:0.7;
 }
 .form--message::placeholder{
   color: white;
-  padding: 10px;
 }
 
 .form--submit{
@@ -98,4 +102,5 @@
   color: white;
   background-color: rgb(94, 131, 201);
   opacity:0.7;
+  align-self: center;
 }
