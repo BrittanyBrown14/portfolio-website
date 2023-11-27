@@ -32,11 +32,6 @@ function Contact(){
                 </article>
                 
                 <form id='contactForm' className="contact--form">
-                    {/* add a form for contact details simlar to the design
-                    
-                        Make it so that I get an email sent of those emails
-                        Do this using JS 
-                        Maybe create a seperate Script file and make it into a class?????*/}
                     <input type="text" placeholder='Full Name' className="form--item" name='from_name' required/>
                     <input type="email" placeholder='Email' className="form--item" name='from_email' required/>
                     <div>
@@ -54,7 +49,7 @@ function Contact(){
 
 export default Contact;
 
-//TODO Add functionality to the submit button
-//TODO Improve the layout of the COntact page based on the template. 
+//TODO Create a pop up when submitted, if it sent or not 
 //TODO Look into validations for the contact form
 //TODO Fix the message box font and placeholder not showing until text is typed
+//TODO Submit button needs to do something on hover (chnage colour, font gets bolder)
