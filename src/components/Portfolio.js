@@ -30,7 +30,6 @@ function Portfolio() {
                 I created when I was first getting the hang of software development. They can all be found on GitHub. <br/>
             </p>
 
-            
             <Slider {...settings}>
                 <div>
                     <Card className='card--main'> 
@@ -104,5 +103,3 @@ function Portfolio() {
 export default Portfolio;
 
 //TODO add other projects
-//TODO get buttons to work!!!!11!!!!!!!
-//TODO Change the design of the buttons to match the home page button
