@@ -1,4 +1,4 @@
-.portfolio--body {
+.skills--body {
     text-align: center;
     background-image: url("../images/background.jpg");
     justify-content: center;
@@ -8,20 +8,4 @@
     color:white;
     overflow-x: hidden;
     overflow-y: auto;
-  }
-
-.portfolio--body > h1{
-    margin-top: 0em;
-    padding-top: 10px;
-  }
-
-  .slides{
-    .slick-prev {
-      left: 3% !important;
-      z-index: 1;
-    }
-    .slick-next {
-      right: 3% !important;
-      z-index: 1;
-    }
   }

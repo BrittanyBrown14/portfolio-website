@@ -9,6 +9,7 @@ import Footer  from './components/Footer';
 import AboutMe  from './components/AboutMe';
 import Contact  from './components/Contact';
 import Portfolio  from './components/Portfolio';
+import Skills  from './components/Skills';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -25,6 +26,7 @@ root.render(
           <Route path='/AboutMe' element={<AboutMe />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Portfolio' element={<Portfolio />} />
+          <Route path='/Skills' element={<Skills />} />
       </Routes>
       <Footer />
    </Router>

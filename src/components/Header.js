@@ -15,7 +15,9 @@ function Header() {
             <li>
               <Link to="/Portfolio" className='menu--link'>Github Portfolio</Link>
             </li>
-            <li>Skills</li>
+            <li> 
+              <Link to="/Skils" className='menu--link'>Skills</Link>
+            </li>
         </ul>
         
       </header>

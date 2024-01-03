@@ -86,8 +86,7 @@ function Portfolio() {
                             <Card.Text>
                                 This is an expence management application that was made as a final project for this module.<br/>
                                 The user is able to add a trip, add expences for that trip, and view all the details.
-                                There is also a search function.<br/>
-                                I used a SQLite database to store the information.<br/>
+                                There is also a search function.                                I used a SQLite database to store the information.<br/>
                             </Card.Text>
                         </Card.Body>
                         <Button href="https://github.com/BrittanyBrown14/MExpense"
