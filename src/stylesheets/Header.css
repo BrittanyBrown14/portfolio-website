@@ -21,6 +21,7 @@
 
 .header--menu{
     color: white;
+    margin-top: 12px;
 }
 
 .header--listitems{
@@ -36,7 +37,6 @@
     color: #a85c34;
 }
 .header--button{
-    color: #222a33;
     background-color: white;
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
     font-size: 18px;
@@ -53,8 +53,11 @@
 }
 .menu--button-link{
     text-decoration: none;
+    color: #222a33;
 }
-
+.menu--button-link:hover{
+    color: #a85c34;
+}
 .menu--link:hover{
     color: #a85c34;
 }
