@@ -11,7 +11,6 @@ function Contact(){
             <h1>Contact page</h1>
             <div className='contact--home'> 
                 <article>
-                    {/* Add the Contact details similar to how it is in the design.*/}
                     <ul className="contact--info">
                         <li className='info--item'>
                             <img src={phone} className="contact--logo" alt="logo" />
@@ -42,7 +41,6 @@ function Contact(){
             </div>
         </div>
     )
-
 }
 
 export default Contact;
@@ -50,4 +48,4 @@ export default Contact;
 //TODO Create a pop up when submitted, if it sent or not 
 //TODO Look into validations for the contact form
 //TODO Fix the message box font and placeholder not showing until text is typed
-//TODO Submit button needs to do something on hover (chnage colour, font gets bolder)
+//TODO Submit button needs to do something on hover (change colour, font gets bolder)
