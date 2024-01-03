@@ -1,0 +1,26 @@
+.portfolio--body {
+    text-align: center;
+    background-image: url("../images/background.jpg");
+    justify-content: center;
+    font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
+    min-height: 84vh;
+    max-height: 100%;
+    color:white;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+.portfolio--body > h1{
+    margin-top: 0em;
+  }
+
+  .slides{
+    .slick-prev {
+      left: 3% !important;
+      z-index: 1;
+    }
+    .slick-next {
+      right: 3% !important;
+      z-index: 1;
+    }
+  }

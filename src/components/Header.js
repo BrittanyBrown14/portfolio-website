@@ -12,7 +12,9 @@ function Header() {
             <li>
               <Link to="/AboutMe" className='menu--link'>About Me</Link>
             </li>
-            <li>Github Portfolio</li>
+            <li>
+              <Link to="/Portfolio" className='menu--link'>Github Portfolio</Link>
+            </li>
             <li>Skills</li>
         </ul>
         
@@ -28,7 +30,7 @@ function Header() {
 }
 export default Header;
 
-  //TODO Figure out a way to use fuctions in an external script file
   //TODO Change the colour the button turns into when clicked. 
+  //TODO Align the button and text
 
 
