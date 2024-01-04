@@ -59,3 +59,4 @@ export default Home;
 // TODO get the download CV button to work. 
 // TODO make the website layout more fluid.
 // TODO Download button needs to do something on hover (change colour, font gets bolder)
+// TODO Use chrome to tweak the formatting. 
