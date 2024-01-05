@@ -15,7 +15,9 @@ function Header() {
             <li>
               <Link to="/Portfolio" className='menu--link'>Github Portfolio</Link>
             </li>
-            <li>Skills</li>
+            <li> 
+              <Link to="/Skills" className='menu--link'>Skills</Link>
+            </li>
         </ul>
         
       </header>
@@ -29,8 +31,3 @@ function Header() {
   );
 }
 export default Header;
-
-  //TODO Change the colour the button turns into when clicked. 
-  //TODO Align the button and text
-
-
