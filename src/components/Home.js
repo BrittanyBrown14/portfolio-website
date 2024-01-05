@@ -14,7 +14,7 @@ function Home() {
         <h1>Brittany Brown</h1>
         <h2>And I am an <span className='devText'>Aspiring Frontend Developer</span></h2>
         <p>
-          This is a website I have made to showcase my portfilo.<br/>
+          This is a website I have made to showcase my portfolio.<br/>
           This website (Still in development) is my first project using React so far.<br/>
           I based the design off of a template I found in Figma and used <br/>
           that as inspiration. You can find that template         <a
@@ -36,8 +36,8 @@ function Home() {
           </a>
         </div>
 
-        <a href={resume} download="Brittany's CV">
-          <button className='home--button'>Download CV</button>
+        <a href={resume} download="Brittanys_Resume.pdf">
+          <button className='home--download-button'>Download CV</button>
         </a>
         
       </div> 
@@ -47,7 +47,6 @@ function Home() {
       </div>
     </div>
 
-
   );
 }
 
@@ -56,7 +55,4 @@ export default Home;
 // TODO find a better background pic. maybe a lighter image colour or a lighter shade of blue
 // TODO find a better logo pic. Something to do with coding but a free stock photo.
 // TODO consider changing the colour scheme
-// TODO get the download CV button to work. 
 // TODO make the website layout more fluid.
-// TODO Download button needs to do something on hover (change colour, font gets bolder)
-// TODO Use chrome to tweak the formatting. 

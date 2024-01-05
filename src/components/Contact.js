@@ -1,11 +1,12 @@
 import '../stylesheets/Contact.css'
-import React from 'react'
+import React, {useState} from 'react'
 import phone from '../images/phone.png'
 import email from '../images/email.png'
 import map from '../images/location.png'
 import sendEmail from '../scripts/SendEmail'
 
 function Contact(){
+
     return(
         <div className='contact--body'> 
             <h1>Contact page</h1>
@@ -31,13 +32,13 @@ function Contact(){
                 <form id='contactForm' className="contact--form">
                     <input type="text" placeholder='Full Name' className="form--item" name='from_name' required/>
                     <input type="email" placeholder='Email' className="form--item" name='from_email' required/>
-                    <div>
+                    <div className='form--short-item-container'>
                         <input type="tel" placeholder='Phone Number' className="form--short-item" name='from_number'/>
-                        <input type="text" placeholder='Subject' className="form--short-item" style={{width:"297px"}} name='subject' required/>
+                        <input type="text" placeholder='Subject' className="form--short-item" name='subject' required/>
                     </div>
-                    <textarea placeholder="Write your message here" className="form--message" rows="4" cols="50" name='message' required> </textarea>
+                    <textarea placeholder="Write your message here" className="form--message" rows="4" cols="50" name='message' required></textarea>
                     <button type="submit" value="Send" className="form--submit" onClick={(sendEmail)}>Submit</button>
-                </form>
+                </form> 
             </div>
         </div>
     )
@@ -47,5 +48,3 @@ export default Contact;
 
 //TODO Create a pop up when submitted, if it sent or not 
 //TODO Look into validations for the contact form
-//TODO Fix the message box font and placeholder not showing until text is typed
-//TODO Submit button needs to do something on hover (change colour, font gets bolder)
