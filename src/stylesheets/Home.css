@@ -31,7 +31,7 @@
   color: white;
 }
 
-.home--button{
+.home--download-button{
   color: white;
   background-color: #a85c24;
   font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
@@ -42,6 +42,12 @@
   border: 2px;
   border-radius: 25px;
   margin-top: 40px;
+}
+
+.home--download-button:hover{
+  box-shadow: 0px 0px 12px #a85c24;
+  border-radius:190px;
+  font-weight: 800;
 }
 
 .text{
