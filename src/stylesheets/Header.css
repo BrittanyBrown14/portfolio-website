@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -24,22 +24,19 @@
     margin-top: 12px;
 }
 
-.header--listitems{
+.header--list-items{
     list-style-type: none;
     display: flex;
 }
 
-.header--listitems > li{
+.header--list-items > li{
     padding-right: 50px;
 }
 
-.header--listitems >li:hover{
-    color: #a85c34;
-}
 .header--button{
     background-color: white;
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     width: 150px;
     height: 40px;
@@ -61,7 +58,3 @@
 .menu--link:hover{
     color: #a85c34;
 }
-
-/* TODO Consider making font bigger*/
-/* TODO Remember to remove the 'listItems:hover. They are all going to be links eventually. */
-

@@ -98,11 +98,3 @@ noindex:-o-prefocus, .skills--text-styling-xp {
   animation-fill-mode: both;
   overflow: hidden;
 }
-
-.test{
-  margin-top: 3.125em;
-  text-align: left;
-  padding-left: -10em;
-  padding-right: 3em;
-  align-self: flex-start;
-}
