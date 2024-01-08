@@ -36,7 +36,7 @@ function Home() {
           </a>
         </div>
 
-        <a href={resume} download="Brittanys_Resume.pdf">
+        <a href={process.env.PUBLIC_URL + resume} download="Brittany's_Resume.pdf">
           <button className='home--download-button'>Download CV</button>
         </a>
         

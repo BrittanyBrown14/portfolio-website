@@ -19,7 +19,6 @@ function Header() {
               <Link to="/Skills" className='menu--link'>Skills</Link>
             </li>
         </ul>
-        
       </header>
 
       <button className='header--button'>

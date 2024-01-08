@@ -82,3 +82,4 @@ export default Skills;
 
 //TODO find a way to make the layout suit opera browser
 //TODO add a red to green colour gradient to show confidence
+//TODO make the YoE: bigger and eaier to read
