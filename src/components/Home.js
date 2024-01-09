@@ -1,8 +1,8 @@
-import me from '../images/me-grad-edit.jpg';
-import linkedin from '../images/linkedin.png';
-import github from '../images/github.png';
-import resume from '../BrittanyResume.pdf'
-import '../stylesheets/Home.css';
+import me from 'images/me-grad-edit.jpg';
+import linkedin from 'images/linkedin.png';
+import github from 'images/github.png';
+import resume from 'BrittanyResume.pdf'
+import 'stylesheets/Home.css';
 
 
 function Home() {
@@ -17,14 +17,14 @@ function Home() {
           This is a website I have made to showcase my portfolio.<br/>
           This website (Still in development) is my first project using React so far.<br/>
           I based the design off of a template I found in Figma and used <br/>
-          that as inspiration. You can find that template         <a
-          className="textLink"
-          href="https://www.figma.com/community/file/1294537255181873571"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          here.
-        </a><br/>
+          that as inspiration. You can find that template         
+          <a
+            className="textLink"
+            href="https://www.figma.com/community/file/1294537255181873571"
+            target="_blank"
+            rel="noopener noreferrer"
+          > here.
+          </a><br/>
         </p>
       
         <div className='icons'>
