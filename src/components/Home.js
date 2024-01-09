@@ -1,7 +1,7 @@
 import me from '../images/me-grad-edit.jpg';
 import linkedin from '../images/linkedin.png';
 import github from '../images/github.png';
-import resume from '../Brittanys_Resume.pdf'
+import resume from '../BrittanyResume.pdf'
 import '../stylesheets/Home.css';
 
 
@@ -36,7 +36,7 @@ function Home() {
           </a>
         </div>
 
-        <a href={process.env.PUBLIC_URL + resume} download="Brittany's_Resume.pdf">
+        <a href= {resume} download="Brittany's_Resume.pdf">
           <button className='home--download-button'>Download CV</button>
         </a>
         
