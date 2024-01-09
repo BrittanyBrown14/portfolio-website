@@ -1,9 +1,9 @@
-import android from '../images/android.png';
+import android from 'images/android.png';
 import React from 'react';
 import { Card, Button,} from 'react-bootstrap';
 import Slider from "react-slick";
-import '../stylesheets/Portfolio.css';
-import '../stylesheets/Card.css';
+import 'stylesheets/Portfolio.css';
+import 'stylesheets/Card.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";

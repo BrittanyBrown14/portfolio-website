@@ -1,7 +1,7 @@
 import me from 'images/me-grad-edit.jpg';
 import linkedin from 'images/linkedin.png';
 import github from 'images/github.png';
-import resume from 'BrittanyResume.pdf'
+import resume from './BrittanyResume.pdf'
 import 'stylesheets/Home.css';
 
 
@@ -25,6 +25,7 @@ function Home() {
             rel="noopener noreferrer"
           > here.
           </a><br/>
+          For the best experience, use a laptop/desktop.
         </p>
       
         <div className='icons'>
