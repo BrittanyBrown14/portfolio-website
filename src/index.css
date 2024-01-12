@@ -12,3 +12,20 @@ code {
     monospace;
   color: blue;
 }
+
+:root {
+  /* Raisin Black */
+  --background: rgb(45, 42, 50);
+  /* Baby Powder */
+  --text-primary: rgb(250, 253, 246);
+  /* Brown Sugar */
+  --text-secondary: rgb(184, 111, 82);
+
+  /* Coral */
+  --accent-primary:rgb(247, 135, 100);
+  /* Burnt Sienna */
+  --accent-primary-darker: rgb(245, 104, 61);
+
+  /* Vivid Sky Blue */
+  --accent-secondary: rgb(91, 195, 235);
+}

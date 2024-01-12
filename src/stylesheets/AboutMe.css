@@ -6,7 +6,7 @@
     min-height: 84vh;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--text-primary);
 }
 
 .about--logo {

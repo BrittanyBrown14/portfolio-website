@@ -1,6 +1,5 @@
 import 'stylesheets/Skills.css';
 
-
 function Skills(){
 
     const ProgressBar = (props) => {
@@ -10,6 +9,12 @@ function Skills(){
             width: `${completed}%`,
             backgroundColor: bgcolor,
           }
+
+/*           const gradient2 = {
+            background: "rgb(255,0,0)",
+            // background: linear-gradient(270deg, rgba(255,0,0,1) 10%, rgba(46,196,45,1) 90%),
+            background: "linear(90, rgba(255,0,0,1,10), rgba(46,196,45,1,90)"
+          } */
         
           return (
             <div className='skills--bar-styling'>
@@ -21,18 +26,18 @@ function Skills(){
         };
 
         const techTestData = [
-          { bgcolor: "#a85c24", completed: 70, skill: "C#", years: 2},
-          { bgcolor: "#a85c24", completed: 40, skill: "Javascript", years: 1},
-          { bgcolor: "#a85c24", completed: 65, skill: "CSS", years: 1},
-          { bgcolor: "#a85c24", completed: 75, skill: "HTML", years: 1},
-          { bgcolor: "#a85c24", completed: 60, skill: "React", years: 1},
+          { bgcolor: "#5bc3eb", completed: 70, skill: "C#", years: 2},
+          { bgcolor: "#5bc3eb", completed: 40, skill: "Javascript", years: 1},
+          { bgcolor: "#5bc3eb", completed: 65, skill: "CSS", years: 2},
+          { bgcolor: "#5bc3eb", completed: 75, skill: "HTML", years: 2},
+          { bgcolor: "#5bc3eb", completed: 60, skill: "React", years: 1},
         ];       
         
         const softTestData = [
-          { bgcolor: "#313c4e", completed: 80, skill: "Communication"},
-          { bgcolor: "#313c4e", completed: 78, skill: "Organization"},
-          { bgcolor: "#313c4e", completed: 65, skill: "Teamwork" },
-          { bgcolor: "#313c4e", completed: 82, skill: "Independence" },
+          { bgcolor: "#5bc3eb", completed: 80, skill: "Communication"},
+          { bgcolor: "#5bc3eb", completed: 78, skill: "Organization"},
+          { bgcolor: "#5bc3eb", completed: 65, skill: "Teamwork" },
+          { bgcolor: "#5bc3eb", completed: 82, skill: "Independence" },
         ];
 
     return(
@@ -43,9 +48,9 @@ function Skills(){
                 <h2>Technical skills</h2>
                 <div className='skills--bars'>
                   <div>                
-                      {techTestData.map((item) => (
-                          <p 
-                            className='skills--text-styling-xp'> {item.skill} <br/>
+                      {techTestData.map((item, idx) => (
+                          <p className='skills--text-styling-xp'> 
+                            {item.skill} <br/>
                             Years of Experience: {item.years}
                           </p>
                       ))}
@@ -82,4 +87,3 @@ export default Skills;
 
 //TODO find a way to make the layout suit opera browser
 //TODO add a red to green colour gradient to show confidence
-//TODO make the YoE: bigger and eaier to read

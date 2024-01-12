@@ -1,23 +1,3 @@
-noindex:-o-prefocus, .skills--text-styling-xp {
-    
-    margin-top: 1em;
-    text-align: left;
-    padding-left: 1em;
-    padding-right: 3em;
-  
-}
-
-@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
-  .skills--text-styling-xp {
-    
-    margin-top: 10em;
-    text-align: left;
-    padding-left: 1em;
-    padding-right: 3em;
-  
-  }
-}
-
 .skills--body{
     text-align: center;
     background-image: url("../images/background.jpg");
@@ -25,7 +5,7 @@ noindex:-o-prefocus, .skills--text-styling-xp {
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
     min-height: 84vh;
     max-height: 100%;
-    color:white;
+    color:var(--text-primary);
     overflow-x: hidden;
     overflow-y: auto;
   }
@@ -42,7 +22,7 @@ noindex:-o-prefocus, .skills--text-styling-xp {
 
 .skills--bar-styling{
     display:flex;
-    margin-top: 50px;
+    margin-top: 4.8em;
 }
 
 .skills--text-styling{
@@ -50,6 +30,7 @@ noindex:-o-prefocus, .skills--text-styling-xp {
     text-align: left;
     padding-left: 1em;
     padding-right: 3em;
+    font-size: 22px;
 }
 
 .skills--text-styling-xp{
@@ -57,6 +38,8 @@ noindex:-o-prefocus, .skills--text-styling-xp {
     text-align: left;
     padding-left: 1em;
     padding-right: 3em;
+    font-size: 22px;
+
 }
 .skills--containers{
   display: flex;
@@ -68,14 +51,14 @@ noindex:-o-prefocus, .skills--text-styling-xp {
 .labelStyles{
   padding: 5px;
   margin-left: 10em;
-  color: white;
+  color: var(--text-primary);
   font-weight: bold;
 }
 
 .containerStyles{
   height: 1.25em;
   width: 25em;
-  background-color:#e0e0de;
+  background-color:var(--text-primary);
   border-radius: 50px;
   margin-top: 10px;
   margin-left: 5px;
@@ -97,4 +80,9 @@ noindex:-o-prefocus, .skills--text-styling-xp {
   animation: 1s ease-out 0s 1 slideInFromLeft;
   animation-fill-mode: both;
   overflow: hidden;
+}
+
+.grad{
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 10%, rgba(46,196,45,1) 90%);
 }
