@@ -37,7 +37,7 @@ function Home() {
           </a>
         </div>
 
-        <a href={resume} download="Brittany's_Resume">
+        <a href={resume} >
           <button className='home--download-button'>Download CV</button>
         </a>
         
