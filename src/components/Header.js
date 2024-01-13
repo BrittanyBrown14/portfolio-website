@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import '../stylesheets/Header.css';
+import 'stylesheets/Header.css';
 
 function Header() {
   return (

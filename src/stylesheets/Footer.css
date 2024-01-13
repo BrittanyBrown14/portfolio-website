@@ -6,8 +6,8 @@
 */
 
 .footer--main{
-    background-color: #222a33;
-    color: white;
+    background-color:var(--background);
+    color: var(--text-primary);
     width: 100%;
     height: 8vh;
     flex-shrink: 0;
@@ -28,7 +28,3 @@
 .footer-text > small{
     margin-right: 50px;
 }
-
-.textLink{
-    color:white;
-  }

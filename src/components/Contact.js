@@ -1,9 +1,9 @@
-import '../stylesheets/Contact.css'
-import React, {useState} from 'react'
-import phone from '../images/phone.png'
-import email from '../images/email.png'
-import map from '../images/location.png'
-import sendEmail from '../scripts/SendEmail'
+import 'stylesheets/Contact.css'
+import React from 'react'
+import phone from 'images/phone.png'
+import email from 'images/email.png'
+import map from 'images/location.png'
+import sendEmail from 'utils/SendEmail'
 
 function Contact(){
 

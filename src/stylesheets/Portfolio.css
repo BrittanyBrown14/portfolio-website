@@ -5,7 +5,7 @@
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
     min-height: 84vh;
     max-height: 100%;
-    color:white;
+    color:var(--text-primary);
     overflow-x: hidden;
     overflow-y: auto;
   }
@@ -20,39 +20,25 @@
   }
 
   .portfolio--carousel-formatting{
-    /* display: flexbox;*/
-    /* display: flex;  */
     align-content: center;
     justify-content: space-between;
-
     margin: 2em;
-
-
-
-    .left{
-      height: 30px;
-      background-color: red;
-      color: blue;
-      margin-top: -4em;
-    }
-
-    .right{
-      height: 30px;
-      background-color: green;
-      color: pink;
-      margin-top: 3em;
-    }
   }
 .slides{
   
   .slick-prev {
     left: 3% !important;
     z-index: 1; 
-    color: brown;
   }
   .slick-next {
     right: 3% !important;
     z-index: 1;
   }
+}
+
+.portfolio-toggle{
+  margin: 1em;
+  margin-top: 0em;
+  font-size: 20px;
 }
   

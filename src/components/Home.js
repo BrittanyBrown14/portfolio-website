@@ -1,8 +1,8 @@
-import me from '../images/me-grad-edit.jpg';
-import linkedin from '../images/linkedin.png';
-import github from '../images/github.png';
-import resume from '../Brittanys_Resume.pdf'
-import '../stylesheets/Home.css';
+import me from 'images/me-grad-edit.jpg';
+import linkedin from 'images/linkedin.png';
+import github from 'images/github.png';
+import resume from './BrittanyResume.pdf'
+import 'stylesheets/Home.css';
 
 
 function Home() {
@@ -17,14 +17,15 @@ function Home() {
           This is a website I have made to showcase my portfolio.<br/>
           This website (Still in development) is my first project using React so far.<br/>
           I based the design off of a template I found in Figma and used <br/>
-          that as inspiration. You can find that template         <a
-          className="textLink"
-          href="https://www.figma.com/community/file/1294537255181873571"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          here.
-        </a><br/>
+          that as inspiration. You can find that template         
+          <a
+            className="textLink"
+            href="https://www.figma.com/community/file/1294537255181873571"
+            target="_blank"
+            rel="noopener noreferrer"
+          > here.
+          </a><br/>
+          For the best experience, use a laptop/desktop.
         </p>
       
         <div className='icons'>
@@ -36,7 +37,7 @@ function Home() {
           </a>
         </div>
 
-        <a href={process.env.PUBLIC_URL + resume} download="Brittany's_Resume.pdf">
+        <a href={resume} >
           <button className='home--download-button'>Download CV</button>
         </a>
         
