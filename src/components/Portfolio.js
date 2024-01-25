@@ -37,6 +37,17 @@ function Portfolio() {
         className: 'slides'
     };
 
+    const settings2 = {
+        arrows: true,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        centerMode: true,
+        className: 'slides'
+    };
+
     return(
         <div className='portfolio--body'>
             <h1>Projects I've Made</h1>
@@ -48,7 +59,6 @@ function Portfolio() {
             <label className='portfolio-toggle'> University Projects </label>
                 <ToggleSwitch id='toggle-switch' checked={toggle} onChange={handleClick}/>
             <label className='portfolio-toggle'> Personal Projects </label>
-
 
             <div className='portfolio--carousel-formatting'>
                 {toggle ?
@@ -120,53 +130,40 @@ function Portfolio() {
                     </div> 
                     :
                     <div>
-                        <Slider ref={sliderArrows} {...settings}>
-                        <div>
+                        <Slider ref={sliderArrows} {...settings2}>
+                            <div>
                                 <Card className='card--main'> 
                                     <Card.Header className='card--header'>Personal project</Card.Header>                   
                                     <Card.Body className='card--body'>
                                         <Card.Img src={android} className='card--image'/>
-                                        <Card.Title className='card--title'>...</Card.Title>
+                                        <Card.Title className='card--title'>MultiGame</Card.Title>
                                         <Card.Text>
-                                            I made this calculator as part of an Android development module.
-                                            I made this in Android Studio using Java and XML.<br/>
-                                            The calculator has all the functions that a regular calculator would have. 
+                                            This is a collection of projects that I made when I first started learning C#. <br/>
+                                            I worked off Microsoft tutorials and then added more features to further my learning.
                                         </Card.Text>
                                     </Card.Body>
-                                    <Button href="https://github.com/BrittanyBrown14/Calculator"
+                                    <Button href="https://github.com/BrittanyBrown14/MultiGame"
                                         variant='primary'>Go to project Github</Button>
                                 </Card>     
                             </div>
+                            
                             <div>
-                                <Card className='card--main'>
-                                <Card.Header className='card--header'>Personal project</Card.Header>                   
+                                <Card className='card--main'> 
+                                    <Card.Header className='card--header'>Personal project</Card.Header>                   
                                     <Card.Body className='card--body'>
                                         <Card.Img src={android} className='card--image'/>
-                                        <Card.Title className='card--title'>...</Card.Title>
+                                        <Card.Title className='card--title'>Portfolio Website</Card.Title>
                                         <Card.Text>
-                                            This is an viewer that scrolls through images that are preloaded to the app.
+                                            This is the first website I have made using React framework. <br/>
+                                            This website allowed me to test various concepts, features and libraries to show off
+                                            my portfolio.
                                         </Card.Text>
                                     </Card.Body>
-                                    <Button href= "https://github.com/BrittanyBrown14/Image_Viewer"
+                                    <Button href="https://github.com/BrittanyBrown14/MultiGame"
                                         variant='primary'>Go to project Github</Button>
-                                </Card> 
+                                </Card>     
                             </div>
-                            <div>
-                                <Card className='card--main'>
-                                <Card.Header className='card--header'>Personal project</Card.Header>                   
-                                    <Card.Body className='card--body'>
-                                        <Card.Img src={android} className='card--image'/>
-                                        <Card.Title className='card--title'>Contact Database</Card.Title>
-                                        <Card.Text>
-                                            This is a simple database where the user inputs contact information and it displayed back to 
-                                            them on another page.<br/>
-                                            I used an SQLite database to store the information on the local device. 
-                                        </Card.Text>
-                                    </Card.Body>
-                                    <Button href="https://github.com/BrittanyBrown14/Contact_Database"
-                                        variant='primary'>Go to project Github</Button>
-                                </Card>
-                            </div>
+                            
                         </Slider>
                     </div>
                 }               
@@ -178,5 +175,3 @@ function Portfolio() {
 }  
 
 export default Portfolio;
-
-//TODO add other non-projects

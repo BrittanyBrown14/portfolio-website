@@ -1,12 +1,19 @@
 import 'stylesheets/Contact.css'
-import React from 'react'
+import React, { useState } from 'react'
 import phone from 'images/phone.png'
 import email from 'images/email.png'
 import map from 'images/location.png'
 import sendEmail from 'utils/SendEmail'
+import validateFormat from 'utils/ValidateFormat.js'
+
+const isEmail = (email) =>
+  /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
+
+const isNumber = (number) =>
+/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/i.test(number)
 
 function Contact(){
-
+   
     return(
         <div className='contact--body'> 
             <h1>Contact page</h1>
@@ -29,15 +36,15 @@ function Contact(){
                     </ul>      
                 </article>
                 
-                <form id='contactForm' className="contact--form">
-                    <input type="text" placeholder='Full Name' className="form--item" name='from_name' required/>
-                    <input type="email" placeholder='Email' className="form--item" name='from_email' required/>
+                <form id='contactForm' className="contact--form" onSubmit={(sendEmail)}>
+                    <input type="text" placeholder='Full Name' className="form--item" name='from_name' id='from_name' required/>
+                    <input type="email" placeholder='Email' className="form--item" onChange={validateFormat} id='email' name='from_email' required/>
                     <div className='form--short-item-container'>
-                        <input type="tel" placeholder='Phone Number' className="form--short-item" name='from_number'/>
+                        <input type="tel" placeholder='Phone Number' className="form--short-item" onChange={(validateFormat)} id='phone' name='from_number'/>
                         <input type="text" placeholder='Subject' className="form--short-item" name='subject' required/>
                     </div>
                     <textarea placeholder="Write your message here" className="form--message" rows="4" cols="50" name='message' required></textarea>
-                    <button type="submit" value="Send" className="form--submit" onClick={(sendEmail)}>Submit</button>
+                    <button type="submit" value="Send" className="form--submit">Submit</button>
                 </form> 
             </div>
         </div>
@@ -45,6 +52,3 @@ function Contact(){
 }
 
 export default Contact;
-
-//TODO Create a pop up when submitted, if it sent or not 
-//TODO Look into validations for the contact form

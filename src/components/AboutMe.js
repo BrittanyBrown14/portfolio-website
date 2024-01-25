@@ -48,7 +48,3 @@ function AboutMe(){
 };
 
 export default AboutMe;
-
-//TODO add space between paragraph titles
-//TODO make the paragraphs slightly less opaque
-//TODO remove the underline for the main title

@@ -52,8 +52,3 @@ function Home() {
 }
 
 export default Home;
-
-// TODO find a better background pic. maybe a lighter image colour or a lighter shade of blue
-// TODO find a better logo pic. Something to do with coding but a free stock photo.
-// TODO consider changing the colour scheme
-// TODO make the website layout more fluid.
