@@ -3,7 +3,7 @@
     background-image: url("../images/background.jpg");
     justify-content: center;
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
-    height: 84vh;
+    height: 82%;
     color:white;
     overflow: auto;
   }

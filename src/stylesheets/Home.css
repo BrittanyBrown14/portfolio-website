@@ -9,6 +9,7 @@
 .home {
   text-align: center;
   display: flex;  
+  height: 82%;
   background-image: url("../images/background.jpg");
   align-items: center;
   justify-content: center;
@@ -23,7 +24,6 @@
 }
 
 .home--body {
-  min-height: 84vh;
   display: flex;
   align-items: center;
   justify-content: center;
