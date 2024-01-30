@@ -1,4 +1,7 @@
 import android from 'images/android.png';
+import csharp from 'images/csharp.png';
+import python from 'images/python.png';
+import reactPic from 'images/react.png'
 import React, {useState} from 'react';
 import Slider from "react-slick";
 import ToggleSwitch from 'utils/ToggleSwitch.js'
@@ -10,8 +13,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 function Portfolio() {
     
-    const useToggle = (initialState) => {
-        const [toggleValue, setToggleValue] = useState(initialState);
+    const useToggle = () => {
+        const [toggleValue, setToggleValue] = useState(false);
     
         const toggler = () => { setToggleValue(!toggleValue)};
         return [toggleValue, toggler]
@@ -76,7 +79,8 @@ function Portfolio() {
                             <Test
                                 header='University Project'
                                 title='Image Viewer'
-                                text='This is an viewer that scrolls through images that are preloaded to the app'
+                                text='I made this calculator as part of an Android development module.
+                                This is an viewer that scrolls through images that are preloaded to the app'
                                 img={android}
                                 url='https://github.com/BrittanyBrown14/Image_Viewer'
                                 buttonText='Go to project Github'/>
@@ -99,6 +103,15 @@ function Portfolio() {
                                 img={android}
                                 url='https://github.com/BrittanyBrown14/MExpense'
                                 buttonText='Go to project Github'/>
+
+                            <Test
+                                header='Final Year Project'
+                                title='Fish Detection App'
+                                text='This a a web application that can detect certain fish species in an image or video. 
+                                    It was made to be able to detect the 6 most exported fish in the UK (in 2023).'
+                                img={python}
+                                url='https://github.com/BrittanyBrown14/FYP'
+                                buttonText='Go to project Github'/>
                         </Slider>  
                     </div> 
                     :
@@ -110,7 +123,7 @@ function Portfolio() {
                                 text='This is the first website I have made using React framework.
                                     This website allowed me to test various concepts, features and libraries to show off
                                     my portfolio.'
-                                img={android}
+                                img={reactPic}
                                 url="https://github.com/BrittanyBrown14/portfolio-website"
                                 buttonText='Go to project Github'/>
 
@@ -119,7 +132,7 @@ function Portfolio() {
                                 title='MultiGame' 
                                 text='This is a collection of projects that I made when I first started learning C#.
                                     I worked off Microsoft tutorials and then added more features to further my learning.'
-                                img={android}
+                                img={csharp}
                                 url="https://github.com/BrittanyBrown14/MultiGame"
                                 buttonText='Go to project Github'/>
                             

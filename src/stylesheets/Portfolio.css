@@ -14,8 +14,8 @@
 }
 
 .portfolio--body > p{
-  font-size: 20px;
-  margin-bottom: 1.5em;
+  font-size: 1.5em;
+  margin-bottom: 1em;
 }
 
 .portfolio--carousel-formatting{
@@ -45,6 +45,6 @@
 .portfolio-toggle{
   margin: 1em;
   margin-top: 0em;
-  font-size: 20px;
+  font-size: 1.25em;
 }
   

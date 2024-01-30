@@ -1,5 +1,5 @@
 import 'stylesheets/Card.css'
-const cardComponent = ({header, title, text,img, url, buttonText} ) => {
+const cardComponent = ({header, title, text, img, url, buttonText} ) => {
     return(
             <div className='card--main'>
                 <h2 className='card--header'>{header}</h2>
