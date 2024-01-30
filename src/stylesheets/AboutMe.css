@@ -3,7 +3,7 @@
     display: flex;  
     background-image: url("../images/background.jpg");
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
-    min-height: 84vh;
+    height: 82%;
     align-items: center;
     justify-content: center;
     color: var(--text-primary);

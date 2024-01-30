@@ -3,8 +3,7 @@
     background-image: url("../images/background.jpg");
     justify-content: center;
     font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
-    min-height: 84vh;
-    max-height: 100vh;
+    height: 82%;
     color:white;
     overflow: auto;
   }
@@ -57,12 +56,12 @@
   margin:10px;
   padding-left: 10px;
   text-indent: 20px;
-  color: white;
-  background-color: rgb(94, 131, 201);
+  color: var(--text-primary);
+  background-color: var(--background);
   opacity:0.7;
 }
 .form--item::placeholder{
-  color: white;
+  color: var(--accent-secondary);
 }
 
 .form--short-item{
@@ -70,12 +69,12 @@
   height: 40px;
   border-radius: 50px;
   text-indent: 20px;
-  color: white;
-  background-color: rgb(94, 131, 201);
+  color: var(--text-primary);
+  background-color: var(--background);
   opacity:0.7;
 }
 .form--short-item::placeholder{
-  color: white;
+  color: var(--accent-secondary);
 }
 
 .form--short-item-container{
@@ -93,12 +92,12 @@
   text-indent: 20px;
   padding-right: 20px;
   padding-top: 10px;
-  color: white;
-  background-color: rgb(94, 131, 201);
+  color: var(--text-primary);
+  background-color: var(--background);
   opacity:0.7;
 }
 .form--message::placeholder{
-  color: white;
+  color: var(--accent-secondary);
   text-indent: 20px;
   padding-right: 10px;
 }
@@ -109,8 +108,8 @@
   border-radius: 50px;
   margin:10px;
   padding-left: 10px;
-  color: white;
-  background-color: rgb(94, 131, 201);
-  opacity:0.7;
+  color: var(--accent-primary-darker);
+  background-color: var(--text-primary);
+  opacity:0.9;
   align-self: center;
 }

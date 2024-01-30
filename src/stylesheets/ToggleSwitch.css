@@ -12,7 +12,7 @@
     display: block;
     overflow: hidden;
     cursor: pointer;
-    border: 0 solid #bbb;
+    border: 0 solid var(--text-primary);
     border-radius: 20px;
     margin: 0;
 }
@@ -30,7 +30,7 @@
     padding: 0;
     line-height: 34px;
     font-size: 14px;
-    color: white;
+    color: var(--text-primary);
     font-weight: bold;
     box-sizing: border-box;
 }
@@ -39,7 +39,7 @@
     text-transform: uppercase;
     padding-left: 10px;
     background-color: var(--accent-secondary);
-    color: #fff;
+    color: var(--text-primary);
 }
 .toggle-switch-disabled {
     background-color: #ddd;
@@ -53,15 +53,15 @@
     content: "";
     text-transform: uppercase;
     padding-right: 10px;
-    background-color: #bbb;
-    color: #fff;
+    background-color: var(--accent-primary);
+    color: var(--text-primary);
     text-align: right;
 }
 .toggle-switch-switch {
     display: block;
     width: 24px;
     margin: 5px;
-    background: #fff;
+    background: var(--text-primary);
     position: absolute;
     top: 0;
     bottom: 0;

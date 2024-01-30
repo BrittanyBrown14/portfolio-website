@@ -9,12 +9,6 @@ function Skills(){
             width: `${completed}%`,
             backgroundColor: bgcolor,
           }
-
-/*           const gradient2 = {
-            background: "rgb(255,0,0)",
-            // background: linear-gradient(270deg, rgba(255,0,0,1) 10%, rgba(46,196,45,1) 90%),
-            background: "linear(90, rgba(255,0,0,1,10), rgba(46,196,45,1,90)"
-          } */
         
           return (
             <div className='skills--bar-styling'>
@@ -84,6 +78,3 @@ function Skills(){
 }
 
 export default Skills;
-
-//TODO find a way to make the layout suit opera browser
-//TODO add a red to green colour gradient to show confidence
