@@ -11,14 +11,31 @@
 
 .about--logo {
     border-radius: 100px;
-    width: 475px;
-    height: 491px;
-    margin-left: 100px;
+    width: 80%;
+    height: 100%;
+    margin-left: 5em;
     pointer-events: none;
-  }
+}
+
+.about--article{
+    padding-left: 4em;
+
+}
+
+.about--main-text{
+    overflow-y:auto;
+    width: 100%;
+    height: 45em;
+}
+
+@media only screen and (max-width: 1345px) {
+    .about--main-text {
+        height: 35em;
+    }
+}
 
 .about--text{
-    font-size: 20px;
+    font-size: 1.25em;
     text-align:justify;
     opacity: 0.9;
     margin-bottom: 1em;
