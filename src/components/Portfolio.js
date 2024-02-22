@@ -5,7 +5,7 @@ import reactPic from 'images/react.png'
 import React, {useState} from 'react';
 import Slider from "react-slick";
 import ToggleSwitch from 'utils/ToggleSwitch.js'
-import Test from './Card.js'
+import CardComponent from './Card.js'
 import 'stylesheets/Portfolio.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css"; 
@@ -66,7 +66,7 @@ function Portfolio() {
                 {toggle ?
                     <div>
                         <Slider ref={sliderArrows} {...settings}>
-                            <Test
+                            <CardComponent
                                 header='University Project'
                                 title='Calculator' 
                                 text='I made this calculator as part of an Android development module.
@@ -76,7 +76,7 @@ function Portfolio() {
                                 url="https://github.com/BrittanyBrown14/Calculator"
                                 buttonText='Go to project Github'/>
 
-                            <Test
+                            <CardComponent
                                 header='University Project'
                                 title='Image Viewer'
                                 text='I made this calculator as part of an Android development module.
@@ -85,7 +85,7 @@ function Portfolio() {
                                 url='https://github.com/BrittanyBrown14/Image_Viewer'
                                 buttonText='Go to project Github'/>
                                 
-                            <Test
+                            <CardComponent
                                 header='University Project'
                                 title='Contact Database'
                                 text=' This is a simple database where the user inputs contact information and it displayed back to 
@@ -94,7 +94,7 @@ function Portfolio() {
                                 url='https://github.com/BrittanyBrown14/Contact_Database'
                                 buttonText='Go to project Github'/>
 
-                            <Test
+                            <CardComponent
                                 header='University Project'
                                 title='MExpense'
                                 text='This is an expense management application that was made as a final project for this module.
@@ -104,7 +104,7 @@ function Portfolio() {
                                 url='https://github.com/BrittanyBrown14/MExpense'
                                 buttonText='Go to project Github'/>
 
-                            <Test
+                            <CardComponent
                                 header='Final Year Project'
                                 title='Fish Detection App'
                                 text='This a a web application that can detect certain fish species in an image or video. 
@@ -117,7 +117,7 @@ function Portfolio() {
                     :
                     <div className='slider--set'>
                         <Slider ref={sliderArrows} {...settings2}>
-                            <Test 
+                            <CardComponent 
                                 header='Personal Project'
                                 title='Portfolio Website' 
                                 text='This is the first website I have made using React framework.
@@ -127,7 +127,7 @@ function Portfolio() {
                                 url="https://github.com/BrittanyBrown14/portfolio-website"
                                 buttonText='Go to project Github'/>
 
-                            <Test 
+                            <CardComponent 
                                 header='Personal Project'
                                 title='MultiGame' 
                                 text='This is a collection of projects that I made when I first started learning C#.
@@ -141,12 +141,8 @@ function Portfolio() {
                 }               
 
             </div>
-
-
-
-
         </div>
     )
 }  
-
+// I don't know why but trying to change the name of the Card component causes it to error out so its going to stay as Test for the time being. 
 export default Portfolio;

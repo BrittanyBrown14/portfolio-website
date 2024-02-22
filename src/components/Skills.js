@@ -39,38 +39,26 @@ function Skills(){
             <h1>My Skills </h1>
             <div className='skills--containers'>
               <div>
-                <h2>Technical skills</h2>
-                <div className='skills--bars'>
-                  <div>                
-                      {techTestData.map((item, idx) => (
-                          <p className='skills--text-styling-xp'> 
-                            {item.skill} <br/>
-                            Years of Experience: {item.years}
-                          </p>
-                      ))}
-                  </div>
-                  <div>
-                      {techTestData.map((item, idx) => (
-                          <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} skill={item.skill} />
-                      ))}
-                  </div>
-                </div>
+                <h2>Technical skills</h2>               
+                  {techTestData.map((item, idx) => (
+                      <div className='skills--text-styling'> 
+                        <span>
+                          {item.skill}
+                          <p>Years of Experience: {item.years}</p>                    
+                        </span>
+                        <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed}/>
+                      </div>
+                  ))}
               </div>
 
               <div>
-                <h2>Soft skills</h2>
-                <div className='skills--bars'>
-                  <div>                
-                      {softTestData.map((item) => (
-                          <p className='skills--text-styling'> {item.skill}</p>
-                      ))}
-                  </div>
-                  <div>
-                      {softTestData.map((item, idx) => (
-                          <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} skill={item.skill} />
-                      ))}
-                  </div>
-                </div>
+                <h2 className='skills--title'>Soft skills</h2>
+                    {softTestData.map((item, idx) => (
+                        <div className='skills--text-styling'> 
+                          {item.skill}
+                          <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed}/>
+                        </div>
+                    ))}
               </div>            
             </div>
         </div>

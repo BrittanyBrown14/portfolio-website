@@ -5,11 +5,25 @@ const isEmail = (email) =>
 const isNumber = (number) =>
 /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/i.test(number)
 
-function validateFormat()
+const form = document.forms[0];
+const isValid = false;
+
+function validateFormat(elementId)
 {
-    let isActive = document.activeElement.id;
+/*     switch (elementId.currentTarget.id) {
+        case 'email':
+            if(form['email'].value === "" || form['email'].value === null)
+            {
+                
+            }
+            
+            break;
+    
+        default:
+            break;
+    } */
 
-
+    return isValid;
 }
 
 export default validateFormat;

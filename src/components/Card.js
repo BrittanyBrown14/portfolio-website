@@ -21,4 +21,4 @@ const cardComponent = ({header, title, text, img, url, buttonText} ) => {
         );
 }
 
-export default cardComponent
+export default cardComponent;
