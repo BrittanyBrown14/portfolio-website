@@ -1,0 +1,28 @@
+{
+    "name": 
+    {
+        "null": "Please enter your name"
+    },
+
+    
+    "email": 
+    {
+        "null": "Please enter your email",
+        "invalid": "Enter your email in a valid format."
+    },
+    
+    "number": 
+    {
+        "invalid": "Enter your phone number in a valid format."
+    },
+
+    "subject": 
+    {
+        "null": "Please enter a subject"
+    },
+
+    "message": 
+    {
+        "null": "Please write a short message"
+    }
+}
