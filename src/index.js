@@ -15,7 +15,6 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
   <React.StrictMode>
     <Router>   
       <Header/>   
@@ -28,7 +27,7 @@ root.render(
           <Route path='/Skills' element={<Skills />} />
       </Routes>
       <Footer />
-   </Router>
+    </Router>
   </React.StrictMode>
 );
 
