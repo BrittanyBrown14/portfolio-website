@@ -43,7 +43,7 @@ function AboutMe(){
             </article>
                 
             <div className="">
-                <img src={me} className="about--logo" alt="logo" />
+                <img src={me} className="about--image" alt="logo" />
             </div>
         </div>
 

@@ -1,21 +1,13 @@
-/* color palette
-    Dark blue: #222a33
-    Lighter Dark blue: #313c4e
-    Burnt Orange (accent colour): #a85c24
-    White: #ffffff
-*/
-
 .footer--main{
+    margin-top: auto;
     background-color:var(--background);
     color: var(--text-primary);
     width: 100%;
-    height: 9%;
+    min-height: 90%;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Playfair Display','Merriweather','Inter','Open Sans', 'sans-serif';
-    font-size: 20px;
     font-weight: 500;
 }
 
@@ -23,8 +15,5 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.footer-text > small{
-    margin-right: 50px;
+    font-size: 1vw;
 }
