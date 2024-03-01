@@ -1,4 +1,4 @@
-import me from 'images/me-grad-edit.jpg';
+import me from 'images/me-alec-edited.png';
 import linkedin from 'images/linkedin.png';
 import github from 'images/github.png';
 import resume from './BrittanyResume.pdf'
@@ -37,7 +37,7 @@ function Home() {
           </a>
         </div>
 
-        <a href={resume} >
+        <a href={resume}>
           <button className='home--download-button'>Download CV</button>
         </a>
         
