@@ -1,20 +1,23 @@
 #root, html, body{
   width: 100%;
   height: 100%;
-}
-
-body {
+  font-family: 'Playfair Display','Merriweather','Inter',
+                -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+  background-image: url("images/background.jpg");
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   color: blue;
+}
+
+#root{
+  display: grid;
+  grid-template-rows: 9% 82% 9%;  
 }
 
 :root {
