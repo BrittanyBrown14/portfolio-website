@@ -30,7 +30,6 @@ function Portfolio() {
 
     const settings = {
         arrows: true,
-        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -41,7 +40,6 @@ function Portfolio() {
 
     const settings2 = {
         arrows: true,
-        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
@@ -57,10 +55,12 @@ function Portfolio() {
                 These are some of the projects I have worked on over the past few years. Some of them I made for University assignments and others<br/> 
                 I created when I was first getting the hang of software development. They can all be found on GitHub. <br/>
             </p>
+            <div className='toggle--main'>
+                <label className='portfolio-toggle'>Personal Projects </label>
+                    <ToggleSwitch id='toggle-switch' checked={toggle} onChange={handleClick}/>
+                <label className='portfolio-toggle'>University Projects </label>                
+            </div>
 
-            <label className='portfolio-toggle'>Personal Projects </label>
-                <ToggleSwitch id='toggle-switch' checked={toggle} onChange={handleClick}/>
-            <label className='portfolio-toggle'>University Projects </label>
 
             <div className='portfolio--carousel-formatting'>
                 {toggle ?

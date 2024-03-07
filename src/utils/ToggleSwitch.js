@@ -19,8 +19,8 @@ return (
       />
 
       <label className="toggle-switch-label" htmlFor={id}>
-        <span className="toggle-switch-inner" data-yes="Yes" data-no="No"/>
-        <span className="toggle-switch-switch" />
+        <span className="toggle-switch-inner"/>
+        <span className="toggle-switch-switch" /> 
       </label>
     </div>
   );

@@ -54,10 +54,11 @@
     opacity: 1;
     text-decoration: underline;
     margin-bottom: 0.5em;
+    color: var(--accent-primary);
 }
 
 .about--title{
     opacity: 1;
     margin-bottom: 0.75em;
-    font-size: calc(14px + 2vmin);
+    font-size: calc(14px + 2.5vmin);
 }
