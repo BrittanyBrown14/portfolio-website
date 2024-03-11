@@ -43,7 +43,7 @@ function Skills(){
                   {techTestData.map((item, idx) => (
                       <div className='skills--text-styling'> 
                         <span>
-                          {item.skill}
+                          <p>{item.skill}</p>
                           <p>Years of Experience: {item.years}</p>                    
                         </span>
                         <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed}/>
@@ -55,7 +55,7 @@ function Skills(){
                 <h2 className='skills--title'>Soft skills</h2>
                     {softTestData.map((item, idx) => (
                         <div className='skills--text-styling'> 
-                          {item.skill}
+                          <p>{item.skill}</p>
                           <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed}/>
                         </div>
                     ))}
