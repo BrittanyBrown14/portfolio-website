@@ -27,9 +27,8 @@
     background-color: var(--text-primary);
     font-size: 1.45vw;
     font-weight: 700;
-    width: 7em;
-    height: 2em;
-    border-radius: 25px;
+    padding: 0.25em 1em 0.25em 1em;
+    border-radius: 100px;
 }
 
 .menu--link{

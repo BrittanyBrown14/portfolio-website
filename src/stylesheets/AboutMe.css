@@ -4,33 +4,32 @@
     max-height: 100vh;
     max-width: 100vw;
     place-items: center;
-    grid-template-columns: 60% 40%;    
+    grid-template-columns: 2fr 1fr;    
     color: var(--text-primary);
 }
 
 .about--image {
-    border-radius: 30px;
+    border-radius: 75px;
     min-width: 50%;
     max-width: 90%;
-    min-height: 50%; 
-    max-height: 90%;
+    height: auto;
 }
 
 .about--article{
     margin: 1em;
     height: 80%;
-    margin-left: 3em;
+    margin: 3em;
     padding-right: 1em;
     min-height: 35em;
-    max-height: 40em;
     overflow-y:auto;
 }
 
 .about--text{
-    font-size: 1.5vw;
-    text-align:justify;
+    font-size: 1.25vw;
+    text-align: justify;
     opacity: 0.9;
     margin-bottom: 1em;
+    padding: auto;
 }
 
 .about--text-title{
@@ -38,11 +37,12 @@
     opacity: 1;
     text-decoration: underline;
     margin-bottom: 0.5em;
+    font-size: 1.5vw;
     color: var(--accent-primary);
 }
 
 .about--title{
     opacity: 1;
     margin-bottom: 0.75em;
-    font-size: calc(14px + 2.5vmin);
+    font-size: 1.75vw;
 }

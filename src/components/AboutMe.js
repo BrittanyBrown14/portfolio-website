@@ -1,5 +1,5 @@
 import 'stylesheets/AboutMe.css'
-import me from 'images/me.jpg';
+import me from 'images/me2.jpg';
 
 function AboutMe(){
     return(

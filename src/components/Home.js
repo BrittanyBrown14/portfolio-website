@@ -1,4 +1,4 @@
-import me from 'images/me-alec-edited.png';
+import me from 'images/me-alec-edited3.png';
 import linkedin from 'images/linkedin.png';
 import github from 'images/github.png';
 import resume from './BrittanyResume.pdf'
