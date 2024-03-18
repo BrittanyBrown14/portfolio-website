@@ -15,7 +15,7 @@ function Home() {
         <h2>And I am an <span className='devText'>Aspiring Frontend Developer</span></h2>
         <p>
           This is a website I have made to showcase my portfolio.<br/>
-          This website (Still in development) is my first project using React so far.<br/>
+          This website is my first project using React so far.<br/>
           I based the design off of a template I found in Figma and used <br/>
           that as inspiration. You can find that template         
           <a

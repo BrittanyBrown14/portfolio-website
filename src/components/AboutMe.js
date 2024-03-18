@@ -25,7 +25,7 @@ function AboutMe(){
                     <p className='about--text'>
                         I sew. I have made dresses, trousers, costumes, hoodies and sweatshirts.<br/>
                         I love Japan and the Japanese culture. I've been learning the language for 3 years or so
-                        and am hoping to take the JLPT N5 exam once registration opens up for the new year.
+                        and am hoping to take the JLPT N5 exam once registration opens up in December.
                         I also enjoy reading and gaming.
                     </p>
 
