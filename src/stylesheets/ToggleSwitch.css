@@ -1,46 +1,51 @@
 .toggle-switch {
-    position: relative;
-    width: 75px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
+    display: flex;
+    width: 6%;
 }
 .toggle-switch-checkbox {
     display: none;
 }
-.toggle-switch-label {
-    display: block;
+
+/* .toggle-switch-label {
+    display: flex;
     overflow: hidden;
-    cursor: pointer;
-    border: 0 solid var(--text-primary);
-    border-radius: 20px;
-    margin: 0;
-}
-.toggle-switch-inner {
-    display: block;
-    width: 200%;
-    margin-left: -100%;
-    transition: margin 0.3s ease-in 0s;
-}
-.toggle-switch-inner:before, .toggle-switch-inner:after {
-    display: block;
-    float: left;
-    width: 50%;
-    height: 34px;
-    padding: 0;
-    line-height: 34px;
-    font-size: 14px;
-    color: var(--text-primary);
-    font-weight: bold;
-    box-sizing: border-box;
-}
-.toggle-switch-inner:before {
-    content: "";
-    text-transform: uppercase;
-    padding-left: 10px;
+    justify-self: center;
+    align-content: center;
+    width: 100%;
     background-color: var(--accent-secondary);
-    color: var(--text-primary);
+    border-radius: 20px;
+    cursor: pointer;
+} */
+.toggle-switch-label {
+    display: flex;
+    overflow: hidden;
+    justify-self: center;
+    align-content: center;
+    width: 100%;
+    height: 15%;
+    background-color:  var(--accent-secondary);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s;
 }
+
+.toggle-switch-label::after {
+    content: "";
+    margin-left: 0.5em;
+    width: 25%;
+    height: 3vh;
+    background-color: var(--text-primary);
+    border-radius: 100px;
+    transition: 0.5s;
+    text-align: right;
+}
+
+
+.toggle-switch-checkbox:checked + .toggle-switch-label::after {
+    left: calc(100% - 1em);
+    transform: translateX(250%);
+}
+
 .toggle-switch-disabled {
     background-color: #ddd;
     cursor: not-allowed;
@@ -48,31 +53,4 @@
 .toggle-switch-disabled:before {
     background-color: #ddd;
     cursor: not-allowed;
-}
-.toggle-switch-inner:after {
-    content: "";
-    text-transform: uppercase;
-    padding-right: 10px;
-    background-color: var(--accent-primary);
-    color: var(--text-primary);
-    text-align: right;
-}
-.toggle-switch-switch {
-    display: block;
-    width: 24px;
-    margin: 5px;
-    background: var(--text-primary);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 40px;
-    border: 0 solid #bbb;
-    border-radius: 20px;
-    transition: all 0.3s ease-in 0s;
-}
-.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-inner {
-    margin-left: 0;
-}
-.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
-    right: 0px;
 }

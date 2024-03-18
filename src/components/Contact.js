@@ -79,8 +79,7 @@ function Contact(){
                 <form id='contactForm' className="contact--form" onSubmit={sendEmail}>
                     <div>
                         <p className='form--error' id='error--name'></p>
-                        <input type="text" placeholder='Full Name' className="form--item" name='from_name' onBlur={ValidateFormat} id='from_name' required/>
-                                                
+                        <input type="text" placeholder='Full Name' className="form--item" name='from_name' onBlur={ValidateFormat} id='from_name' required/>                     
                     </div>
   
                     <div>

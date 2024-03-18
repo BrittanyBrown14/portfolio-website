@@ -11,7 +11,7 @@ const cardComponent = ({header, title, text, img, url, buttonText} ) => {
                 <p className='card--text'>
                     {text}                        
                 </p>
-            <div className='test'>
+            <div>
                 <a href={url} target="_blank" rel="noopener noreferrer">
                     <button className='card--button'> {buttonText} </button>
                 </a> 
